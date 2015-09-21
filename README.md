@@ -1,7 +1,6 @@
 # iste422
 Repository for ISTE 422 -- Application Development Practices
 
-
 ## Exercise 4 & 5
 The point of this exercise is to take the HelloWorld.java file and build an executable JAR file.
 
