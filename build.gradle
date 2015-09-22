@@ -1,0 +1,8 @@
+apply plugin: 'java'
+
+jar {
+    manifest.attributes(
+            // results in "Class-Path: guava-15.0.jar"
+            'Class-Path': configurations.runtime.files.collect { it.name }.join(' ')
+    )
+}
